@@ -1,0 +1,26 @@
+1.Local Variable:
+When variable is create inside a method is called local variable
+Memory allocation:
+at the time of execution of method
+Memory Deallocation:
+after method execution is complete.
+
+
+2.Instance Variable
+when variable is declared inside class outside the method 
+without using static keyword then that variable is instance variable
+To call Instance variable in main() we require object.
+
+Memory allocation :
+when object get created
+Memory deallocation
+once object is destroyed
+
+3.Static variable
+when variable is declared inside class outside the method with static keyword the that varianble is static variable
+
+To call static variable in main() we dont require object to create. static variable we can directly call through class name.
+Memory allocation 
+at the time of class loading
+Memory deallocation
+at the time of class is unloading
